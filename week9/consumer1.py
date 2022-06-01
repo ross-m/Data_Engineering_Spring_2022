@@ -19,6 +19,7 @@ if __name__ == '__main__':
     consumer_conf['auto.offset.reset'] = 'earliest'
     consumer = Consumer(consumer_conf)
 
+
     # Subscribe to topic
     consumer.subscribe([topic])
 
